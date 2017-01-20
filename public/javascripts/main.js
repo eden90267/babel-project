@@ -1,1 +1,0 @@
-"use strict";var input=[1,2,3];input.map(function(n){return console.log(n+1)});
