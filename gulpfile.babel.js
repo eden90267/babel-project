@@ -33,6 +33,7 @@ gulp.task('scripts', () => {
 	})
 	.transform(babelify)
 	.bundle()
+	.pipe(plumber())
 	.pipe(source('bundle.js'))
 	.pipe(buffer()) // 從 streaming 轉回 buffered vinyl 檔案
 	.pipe(sourcemaps.init({loadMaps: true})) // 由於我們壓縮了檔案，要用 sourcemaps 來對應原始文件方便除錯
