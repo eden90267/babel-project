@@ -1,0 +1,20 @@
+{
+  "name": "babel-project",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Eden Liu <eden90267@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
